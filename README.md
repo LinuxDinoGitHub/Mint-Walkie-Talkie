@@ -57,6 +57,10 @@ The firmware requires another Arduino (Uno, mega, nano, etc.) to program the ATM
 <img width="851" height="569" alt="image" src="https://github.com/user-attachments/assets/f3121d8b-0e21-4f76-9268-8b6e19f1280a" />
 <img width="240" height="613" alt="image" src="https://github.com/user-attachments/assets/0a1812a5-c75d-4c35-b186-a82165ac7d3a" />
 
+## BOM
+BOM with links to vendors and sources of material: https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/BOM_with_links.csv
+The project will cost an average of $6 per walkie-talkie, but most of the materials require bulk purchases.
+
 ## Zine page
 [<img width="669" height="1024" alt="1779976642758-aed0d11d-6999-48d8-a8b2-eb19d6b463cd_1" src="https://github.com/user-attachments/assets/5d44b8b9-f760-4881-96fc-887b8b9c17dc" />](https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/Mint_zine_final.pdf)
 
