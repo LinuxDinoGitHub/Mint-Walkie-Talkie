@@ -12,6 +12,12 @@ Following my last radio project, I realised I needed some walkie-talkies to matc
 ### How do you use it?
 Simply hold the button on the PCB/mint can, and you'll go into "transmit" mode. Release and it will go into "receive". It is essentially a half-duplex walkie-talkie.
 
+For assembly, there is NO 3D model, the attached models are merely an example and reference for where to cut the holes. You should have one of your own mint boxes like the following:
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/4a19bac4-6b34-4972-beb3-8b3ad18727cc" />
+
+Not sponsored btw
+
 ## Key features
 - PPT Button, half-duplex system as mentioned above
 - LED signifier
