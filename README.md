@@ -10,14 +10,14 @@ I've been thinking to make a walkie talkie since the first time I was introduced
 Following my last radio project, I realised I needed some walkie-talkies to match it, so I decided to make this. It is also a test of the world of electronics and how small one can make a walkie-talkie (for now, not so small yet).
 
 ### How do you use it?
-Simply hold the button on the PCB/mint can, and you'll go into "transmit" mode. Release and it will go into "receive". It is essentially a half-duplex walkie-talkie.
+Simply hold the button on the PCB/mint can, and you'll go into "transmit" mode. Release and it will go into "receive". It is essentially a half-duplex walkie-talkie. 
 
 **Option A: Mint box outer shell**
 
 You should have one of your own mint boxes like the following:
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/4a19bac4-6b34-4972-beb3-8b3ad18727cc" />
 
-You will need to use a hammer & nail to cut out the holes for the speakers by using a nail to trace the outline, then cutting it out. **Tip: use the stencil provided here to print out and mark the traces.** More photos coming soon.
+You will need to use a hammer & nail to cut out the holes for the speakers by using a nail to trace the outline, then cutting it out. **Tip: use the [stencil provided here](https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/assets/Stencil_print_in_a4.pdf) to print out and mark the traces.** More photos coming soon.
 
 **Dimensions:**
 
@@ -32,12 +32,12 @@ C: 20mm
 
 D: 3.5mm
 
-The PTT button will need to be assembled by press-fitting from the bottom ( use glue to help if you punched your hole too big) to the 6mm button on the PCB trace through the mint box, using the taper to lock it in place.
+The PTT button will need to be 3D printed ([file here](https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/models/button.step)) and assembled by press-fitting from the bottom (use glue to help if you punched your hole too big) to the 6mm button on the PCB trace through the mint box, using the taper to lock it in place.
 
 <img width="417" height="563" alt="image" src="https://github.com/user-attachments/assets/e0bf6ed1-586d-4a27-bf0c-82e476e3ef2f" />
 
 
-**Option B: 3D printed replica mint box (Link here)**
+**Option B: 3D printed replica mint box casing ([Link here](https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/models/3D_printed_case.step))**
 
 If you don't have a mint box, you can use a 3D printed case and save yourself the hassle of manually making the holes. Print the file linked above; the button is included, assembly same as above.
 
@@ -82,7 +82,7 @@ Simple 3-layer PCB, with a ground plane for removing noise.
 <img width="1920" height="1080" alt="Mint3" src="https://github.com/user-attachments/assets/f4cfc4dc-94a4-49d8-a74e-014f9e0a8241" />
 
 ## [Firmware](https://github.com/LinuxDinoGitHub/Mint-Walkie-Talkie/blob/main/firmware/mint.ino)
-The firmware requires another Arduino (Uno, Mega, Nano, etc.) to program the ATMega328P. This is done with the 6 pins on the PCB (see below); for more details, check out this Arduino article (https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoToBreadboard/) on how to program an ATMega328P. All the pins you need are provided in the header pins.
+The firmware requires another Arduino (Uno, Mega, Nano, etc.) to program the ATMega328P. This is done with the 6 pins on the PCB (see below); for more details, check out this [Arduino article on how to program an ATMega328P](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoToBreadboard/). All the pins you need are provided in the header pins.
 <img width="851" height="569" alt="image" src="https://github.com/user-attachments/assets/f3121d8b-0e21-4f76-9268-8b6e19f1280a" />
 <img width="240" height="613" alt="image" src="https://github.com/user-attachments/assets/0a1812a5-c75d-4c35-b186-a82165ac7d3a" />
 
